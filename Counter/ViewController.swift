@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var historyText: UITextView!
     @IBOutlet weak var goBackButton: UIButton!
     @IBOutlet weak var increaseButton: UIButton!
     @IBOutlet weak var decreaseButton: UIButton!

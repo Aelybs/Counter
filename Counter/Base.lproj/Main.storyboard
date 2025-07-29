@@ -72,6 +72,14 @@
                                     <action selector="goBackButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Www-px-NdH"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="История изменений:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SDc-65-fXk">
+                                <rect key="frame" x="93" y="656" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,6 +88,7 @@
                         <outlet property="counterLabel" destination="DBm-wo-AmB" id="XFs-ZZ-ah1"/>
                         <outlet property="decreaseButton" destination="E5N-lM-vUR" id="dC4-YQ-Dn4"/>
                         <outlet property="goBackButton" destination="4oD-cr-qpe" id="7J0-Cb-OI6"/>
+                        <outlet property="historyText" destination="SDc-65-fXk" id="aKp-PN-93w"/>
                         <outlet property="increaseButton" destination="LSg-LO-BBb" id="6Es-2j-61X"/>
                         <outlet property="textLabel" destination="LuJ-ZC-EsQ" id="ALl-pU-Xrm"/>
                     </connections>
@@ -93,6 +102,9 @@
         <image name="gobackward" catalog="system" width="119" height="128"/>
         <image name="minus" catalog="system" width="128" height="26"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
