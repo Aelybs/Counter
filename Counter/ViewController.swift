@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var goBackButton: UIButton!
     @IBOutlet weak var increaseButton: UIButton!
     @IBOutlet weak var decreaseButton: UIButton!
     @IBOutlet weak var counterLabel: UILabel!
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func increaseButtonTouch(_ sender: Any) {
+    }
+    @IBAction func goBackButtonTouch(_ sender: Any) {
     }
 }
 

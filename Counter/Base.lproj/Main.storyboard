@@ -58,6 +58,20 @@
                                     <action selector="increaseButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFt-qy-UEe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oD-cr-qpe">
+                                <rect key="frame" x="139" y="533" width="140" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="gobackward" catalog="system">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="goBackButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Www-px-NdH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -65,6 +79,7 @@
                     <connections>
                         <outlet property="counterLabel" destination="DBm-wo-AmB" id="XFs-ZZ-ah1"/>
                         <outlet property="decreaseButton" destination="E5N-lM-vUR" id="dC4-YQ-Dn4"/>
+                        <outlet property="goBackButton" destination="4oD-cr-qpe" id="7J0-Cb-OI6"/>
                         <outlet property="increaseButton" destination="LSg-LO-BBb" id="6Es-2j-61X"/>
                         <outlet property="textLabel" destination="LuJ-ZC-EsQ" id="ALl-pU-Xrm"/>
                     </connections>
@@ -75,6 +90,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gobackward" catalog="system" width="119" height="128"/>
         <image name="minus" catalog="system" width="128" height="26"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
